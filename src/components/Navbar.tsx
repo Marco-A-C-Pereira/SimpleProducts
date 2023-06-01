@@ -1,5 +1,5 @@
 export default function Navbar() {
-	const viewportWith = window.innerWidth;
+	// const viewportWith = window.innerWidth;
 
 	return (
 		<nav className='flex flex-col text-pinkish font-bold font-Space-Grotesk tracking-wider mb-8 sm:mb-10'>

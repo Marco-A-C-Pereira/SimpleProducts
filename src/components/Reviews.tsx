@@ -1,5 +1,3 @@
-import { ReactNode } from 'react';
-
 const reviewsJSON = [
 	{
 		user: 'The Literal Shoe',

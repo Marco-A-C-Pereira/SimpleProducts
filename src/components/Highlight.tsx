@@ -1,5 +1,3 @@
-import React from 'react';
-
 export default function Highlight() {
 	return (
 		<section className='font-Space-Grotesk p-4 flex max-sm:flex-col-reverse items-center 2xl:justify-center'>
