@@ -1,3 +1,4 @@
+import Feet from './components/Feet';
 import Highlight from './components/Highlight';
 import Navbar from './components/Navbar';
 import Qualities from './components/Qualities';
@@ -8,11 +9,12 @@ export default function App() {
 	return (
 		<>
 			<Navbar />
-			<main className='relative h-screen '>
+			<main className='relative h-screen'>
 				<ReturnButton />
 				<Highlight />
 				<Qualities />
 				<Reviews />
+				<Feet />
 			</main>
 		</>
 	);

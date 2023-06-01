@@ -2,8 +2,8 @@ import React from 'react';
 
 export default function Highlight() {
 	return (
-		<section className='font-Space-Grotesk p-4 flex flex-col-reverse items-center'>
-			<div>
+		<section className='font-Space-Grotesk p-4 flex max-sm:flex-col-reverse items-center 2xl:justify-center'>
+			<div className='lg:w-5/6 2xl:w-3/6'>
 				<h1 className='text-3xl font-bold uppercase text-justify'>
 					The only shoe you will ever need
 				</h1>
@@ -30,7 +30,7 @@ export default function Highlight() {
 			<img
 				src='/MainProduct.png'
 				alt=''
-				className='block w-10/12'
+				className='block w-10/12 2xl:w-2/6'
 			/>
 		</section>
 	);

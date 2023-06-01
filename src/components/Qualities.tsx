@@ -3,13 +3,13 @@ import React from 'react';
 export default function Qualities() {
 	return (
 		<section
-			className='bg-black font-Contrail-One mt-8 p-10 text-white 
-[&>div]:mt-4 [&>div>p]:ml-2 [&>div>h3]:tracking-wider [&>div>h3]:text-pinkish [&>*:nth-child(odd)]:ml-auto'>
+			className='bg-black font-Contrail-One mt-8 p-10 text-white  2xl:px-[15%]
+[&>div]:mt-4 [&>div]:w-1/2 2xl:[&>div]:w-1/4 [&>div>p]:ml-2 [&>div>h3]:tracking-wider [&>div>h3]:text-pinkish [&>*:nth-child(odd)]:ml-auto'>
 			<div>
-				<h3 className='text-4xl'>
-					State of the art confort
+				<h3 className='text-4xl 2xl:text-5xl'>
+					State of the art comfort
 				</h3>
-				<p className='text-xl mt-2'>
+				<p className='text-xl mt-2 2xl:text-2xl'>
 					We designed this experience with the uttermost
 					comfort in mind so you don&apos;t have to worry
 					about your other feet, it&apos;s magic ! Well ...
@@ -19,8 +19,10 @@ export default function Qualities() {
 			</div>
 
 			<div>
-				<h3 className='text-4xl'>Eco Friendly</h3>
-				<p className='text-xl mt-2'>
+				<h3 className='text-4xl 2xl:text-5xl'>
+					Eco Friendly
+				</h3>
+				<p className='text-xl mt-2 2xl:text-2xl'>
 					100% of the materials are sourced from ethical
 					sources and are made to be renewable and
 					recyclable so you can use the best shoe without a
@@ -30,8 +32,10 @@ export default function Qualities() {
 			</div>
 
 			<div>
-				<h3 className='text-4xl'>Confidence</h3>
-				<p className='text-xl mt-2'>
+				<h3 className='text-4xl 2xl:text-5xl'>
+					Confidence
+				</h3>
+				<p className='text-xl mt-2 2xl:text-2xl'>
 					People will know instantly that you have
 					astronomical levels of confidence just by using
 					our product in public, since nobody will even
@@ -42,8 +46,8 @@ export default function Qualities() {
 			</div>
 
 			<div>
-				<h3 className='text-4xl'>It exists</h3>
-				<p className='text-xl mt-2'>
+				<h3 className='text-4xl 2xl:text-5xl'>It exists</h3>
+				<p className='text-xl mt-2 2xl:text-2xl'>
 					Yep, that&apos;s the point this product exists and
 					just that fact is noteworthy, it&apos;s not easy
 					to convince a board of white collars to fund a
