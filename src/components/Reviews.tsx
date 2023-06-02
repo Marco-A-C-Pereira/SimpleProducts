@@ -1,14 +1,14 @@
 const reviewsJSON = [
 	{
 		user: 'The Literal Shoe',
-		url: '/MainProduct.png',
+		url: './MainProduct.png',
 		rating: 5,
 		content:
 			'I am the product and I approve very much. Will chance your life',
 	},
 	{
 		user: 'Nuclear Winter Survivor',
-		url: '/Pfp2.jpg',
+		url: './Pfp2.jpg',
 		rating: 4,
 		content:
 			'In those trying times this magical shoe is being my salvation, I use it at every moment to keep myself warm and protected from the elements. Even managed to find food in the ruins',
@@ -61,7 +61,7 @@ function ReviewCard({
 	function Star() {
 		return (
 			<img
-				src='/star.svg'
+				src='./star.svg'
 				alt=''
 				className='h-6 text-pinkish'
 			/>

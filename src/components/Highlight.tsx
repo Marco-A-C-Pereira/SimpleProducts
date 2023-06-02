@@ -26,7 +26,7 @@ export default function Highlight() {
 				</div>
 			</div>
 			<img
-				src='/MainProduct.png'
+				src='./MainProduct.png'
 				alt=''
 				className='block w-10/12 2xl:w-2/6'
 			/>
