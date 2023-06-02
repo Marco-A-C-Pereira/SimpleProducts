@@ -8,7 +8,7 @@ export default function Feet() {
 				href='https://www.linkedin.com/in/marcoapcarvalho/'
 				target='_blank'>
 				<img
-					src='/LinkedIn.svg'
+					src='./LinkedIn.svg'
 					alt=''
 					className='h-10 2xl:h-16 aspect-square'
 				/>
